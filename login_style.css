@@ -1,5 +1,5 @@
 body {
-	background: black;
+	background: #0d1347;
 }
 
 
@@ -8,6 +8,9 @@ h1 {
 	text-align: center;
 	margin-top: 5%;
 	margin-bottom: 5%;
+}
+h3 {
+	color: white;
 }
 
 input {
