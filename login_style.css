@@ -29,7 +29,7 @@ input {
 	background: -moz-linear-gradient(186deg,#2f32bb 0%, #386eff 80%);
 	position: relative;
 	display: inline-flex;
-	left: 700px;
+	left: 38%;
 	top: 245px;
 	z-index: -1;
 }
@@ -44,7 +44,7 @@ input {
     background: -moz-linear-gradient(186deg,#c89124 0%, #ff6d38 80%);
     display: inline-flex;
     position: relative;
-	left: 880px;
+	left: 47%;
 	top: 620px;
 	z-index: -1;
 }
