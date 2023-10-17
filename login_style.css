@@ -1,7 +1,10 @@
-
+body {
+	background: black;
+}
 
 
 h1 {
+	color: white;
 	text-align: center;
 	margin-top: 5%;
 	margin-bottom: 5%;
@@ -14,6 +17,7 @@ input {
 	height: 10%;
 	width: 93%;
 	margin-top: 10%;
+	border-radius: 10px;
 	text-align: center;
 	display: block;
     margin-left: auto;
@@ -23,7 +27,7 @@ input {
 .form {
 	width: 450px;
 	height: 500px;
-	border: solid;
+	border: 2px solid white;
 	border-radius: 20px;
 	margin: auto;
 	justify-content: center;
