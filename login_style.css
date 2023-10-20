@@ -14,41 +14,57 @@ h1 {
 	font-weight: 700;
 }
 
-
-.form-input {
+.form .item_form {
+	height: 12%;
+	width: 93%;
+	margin-top: 10%;
+	border-radius: 10px;
+	text-align: center;
 	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+	font-weight: 700;
+}
+
+input {
+	font-family: sans-serif;
+	font-weight: 700;
+	border: none;
+	text-align: center;
+	margin: 0px auto;
+	width: 100%;
+	border-radius: 10px;
+}
+.form .input-box {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	display: flex;
+	border: 1px solid;
 	
 }
+
 
 
 .form .form-input{
 	height: 12%;
 	width: 93%;
-	margin-top: 10%;
+	margin: 0px auto;
 	border-radius: 10px;
 	text-align: center;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
     font-family: sans-serif;
 	font-weight: 700;
 
 }
 
-
-.form {
-	height: 12%;
-	width: 93%;
+#item {
 	margin-top: 10%;
-	border-radius: 10px;
-	text-align: center;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: sans-serif;
-	font-weight: 700;
-
 }
+
+
+
 .form {
 	background: white;
 	width: 350px;
@@ -65,13 +81,16 @@ h1 {
 
 }
 
-.form .form-input {
+
+.form .input-box{
 	margin: auto;
-	margin-top: 10%;
-	height: 12%;
-	width: 93%;
+	margin-top: 5%;
 }
-.form .btn {
+
+
+.form .form-input .btn {
+	font-family: sans-serif;
+	font-weight: 700;
 	height: 100%;
 	width: 100%;
 	border-radius: 10px;
