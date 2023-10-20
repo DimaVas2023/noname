@@ -14,28 +14,14 @@ h1 {
 	font-weight: 700;
 }
 
-.form-input {
+.form .input-box {
 	display: block;
 	
 }
 
 
-.form .form-input{
-	height: 12%;
-	width: 93%;
-	margin-top: 10%;
-	border-radius: 10px;
-	text-align: center;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: sans-serif;
-	font-weight: 700;
 
-}
-
-
-.form {
+.form .item_form {
 	height: 12%;
 	width: 93%;
 	margin-top: 10%;
@@ -64,13 +50,13 @@ h1 {
 
 }
 
-.form .form-input {
+.form .input-box {
 	margin: auto;
 	margin-top: 10%;
 	height: 12%;
-	width: 93%;
+	width: 93%;ав
 }
-.form .btn {
+.form .input-box {
 	height: 100%;
 	width: 100%;
 	border-radius: 10px;
