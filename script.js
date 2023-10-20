@@ -1,14 +1,13 @@
-const model = [
-    {type: 'titleh3', value: 'Sign in'},
-    {type: 'forms', value: [
-        'login',
-        'password',
-        'sumbit' 
-    ]}
-]
+ function validation(form) {
+    let result = true;
 
-const $site = document.querySelector('#site')
-
-model.forEach(block => {
-    console.log(block)
-})
+    return result
+ }
+ 
+ document.getElementById('add-form').addEventListener('submit', function(event) {
+    event.preventDefault()
+    
+    if(validation(this)===true){
+        alert('Успешно!')
+    }
+ })
