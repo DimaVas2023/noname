@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-	  <meta charset="utf-8">
-	  <title>РКСИ</title>
-	  <link rel="stylesheet" href="login_style.css">
-	  <link rel="icon" type="image/png" href="rksi_icon.png">
-	</head>
-	<body>
-		<div id='site' class="content">
-			<div class="head">
-				<h1>Посещаемость РКСИ</h1>
-			</div>
-			<div class="form">
-				<h3 class="item_form">Вход в личный кабинет</h3>
-				<form action="table.html" id="add-form" class="form"></form>
-				<input type="text" placeholder="Введите логин" name="email" class="item_form">
-				<input type="password" placeholder="Введите пароль" name="password" class="item_form">
-				<!-- <button href="" type="button" class="item_form"><a href="table.html">Войти</a></button> -->			
-					<button type="submit" >Go to Google</button>
-				</form>
-			</div>
-		</div>
-	<script src="script.js"></script>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <title>РКСИ</title>
+    <link rel="stylesheet" href="login_style.css">
+    <link rel="icon" type="image/png" href="rksi_icon.png">
+  </head>
+  <body>
+    <div id='site' class="content">
+      <div class="head">
+        <h1>Посещаемость РКСИ</h1>
+      </div>
+      <div class="form">
+        <h3 class="item_form">Вход в личный кабинет</h3>
+        <form action="table.html" id="add-form" class="form-input">
+          <div class="input-box">
+            <input type="text" placeholder="Введите логин" name="email">
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="Введите пароль" name="password">
+          </div>
+          <button class="btn" type="submit">Go to Google</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -5,7 +5,7 @@
 
     for (const input of allInputs) {
          
-      if(input.value==""){
+      if (input.value==""){
          console.log('Ошибка поля')
       }
     }
@@ -16,7 +16,7 @@
  document.getElementById('add-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
-    if(validation(this)===true){
+    if(validation(this)==true){
         alert('Успешно!');
     }
  })
